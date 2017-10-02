@@ -9,7 +9,12 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "vue": "^2.3.3",
+    "axios": "^0.16.2",
+    "normalize.css": "^7.0.0",
+    "vue": "^2.4.4",
+    "vue-awesome-swiper": "^2.6.5",
+    "vue-axios": "^2.0.2",
+    "vue-carousel": "^0.6.5",
     "vue-resource": "^1.0.3"
   },
   "devDependencies": {
@@ -17,8 +22,9 @@
     "babel-loader": "^6.0.0",
     "babel-preset-env": "^1.5.1",
     "cross-env": "^3.0.0",
-    "css-loader": "^0.25.0",
+    "css-loader": "^0.28.7",
     "file-loader": "^0.9.0",
+    "style-loader": "^0.18.2",
     "vue-loader": "^12.1.0",
     "vue-template-compiler": "^2.3.3",
     "webpack": "^2.6.1",

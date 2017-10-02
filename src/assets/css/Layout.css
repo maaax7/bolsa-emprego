@@ -1,0 +1,161 @@
+﻿.be-btn {
+    position:relative;
+    display: inline-block;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px; 
+    border-radius: 25px;
+    padding:10px 25px;
+    background-color:#504E4F;
+    border:0;
+    color:#fff;
+}
+.be-btn:hover {cursor:pointer;text-decoration:none!important;}
+.be-btn-emp {background-color:#F2AB01;}
+.be-btn-can {background-color:#2786CA;}
+
+body {background-color:#F6F6F6;}
+body a:hover {color:#980000;}
+.alinhaPagina {width:1180px;padding:0 10px;}
+.menu-topo {clear:both;float:left;width:100%;background-color:#980000;font-size:.9rem;}
+.menu-topo ul {text-align:right;padding:3% 0;}
+.menu-topo ul li {display:inline-block;}
+.menu-topo ul li a {display:inline-block;color:#fff;text-transform:uppercase;font-weight:bold;padding:10px 0;}
+.menu-topo ul li a:hover {text-decoration:underline;}
+.menu-topo ul li:last-child {padding-left:30px;}
+.menu-topo ul li:last-child a {
+    background-color: #F2AB01;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px; 
+    border-radius: 25px;
+    padding:10px 25px;
+}
+.menu-topo ul li span {display:inline-block;padding:0 5px;color:#fff}
+
+.qdo {padding:3% 0;text-align:center;}
+
+.qdo-destaque {position:relative;padding-bottom:10%;}
+.qdo-destaque .img-destaque {width:100%;border:0;}
+.qdo-destaque .qdo-inner {position:absolute;top:0;left:0;width:100%;height:96%;padding:3% 0;}
+.qdo-destaque .qdo-inner .logo {width:19.5%;}
+.qdo-destaque .qdo-inner .logo span {display:block;height:1px;margin:7px 0;background-color:#fff;}
+.qdo-destaque .qdo-inner .logo img {width:100%;}
+
+.qdo-emp-contratando {margin:25px 0;background-color:#fff;}
+
+.qdo-carrinho {background-color:#980000;text-align:center;color:#fff;}
+.qdo-carrinho h1 {padding:25px 0;}
+.qdo-carrinho p img {width:13%;}
+.qdo-carrinho .btn {
+    text-transform: uppercase;
+    color: #666!important;
+    background-color: #fff!important;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;  
+    font-weight:bold;
+    padding:15px 25px!important;
+}
+
+.qdo-anuncie {clear:both;float:left;width:100%;font-family:"Helv95", arial;text-align:left;}
+.qdo-anuncie .icn {text-align:center;}
+.qdo-anuncie .be-btn {text-transform:uppercase;font-weight:bold;font-size:.8rem;}
+.qdo-anuncie .ent-contato {text-align:center;}
+.qdo-anuncie .ent-contato span {text-transform:uppercase;font-size:.8rem;font-weight:bold;}
+
+.fale-conosco {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-color: #46505A;
+    text-align: left;
+    color: #889198;
+    padding-bottom:0;
+}
+.fale-conosco h1 {color:#fff;padding-bottom:5%;}
+.fale-conosco input, .fale-conosco textarea {
+    width: 100%;
+    line-height: 30px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    padding:2% 5%;
+    color:#000;
+}
+.fale-conosco .be-btn {width:100%!important;}
+
+.rodape {clear:both;float:left;width:100%;background-color:#46505A;padding-bottom:10%;}
+.rodape p, .rodape p a {text-align:center;color:#fff;font-size:.8rem;}
+.rodape p span {display:block;font-weight:bold;}
+
+.cx-login {
+    top:50%;
+    clear: both;
+    float: left;
+    width: 100%;
+    color:#4E4B4C;
+    padding-top:5%; 
+}
+.cx-login .cx {
+    width:195px;
+    float:left;
+    background-color: #fff;
+    padding:7px 15px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px; 
+    border-radius: 20px;
+    margin:0 2% 2% 0; 
+}
+.cx-login h2 {font-size:1.5rem;font-weight:bold;}
+.cx-login .cx span {
+    display: block;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .8rem;
+    white-space: normal;
+}
+.cx-login .cx h3 {margin:0;padding:0;font-weight:bold;}
+
+.cx-vagas {
+    top:120%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; 
+    border-radius: 5px;
+    background-color:#fff;
+    height:300px;
+    padding:5%;
+    margin-bottom:2%;
+}
+
+.cx-vagas-disponiveis .tit {}
+.cx-vagas-disponiveis .tit .icn {border:0;}
+.cx-vagas-disponiveis .tit span {
+    text-transform:uppercase;
+    font-weight:bold;
+    display:inline-block;
+    margin-top: 15px;
+}
+.cx-blog {
+    top:120%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; 
+    border-radius: 5px;
+    background-color:#fff;
+    height:300px;
+    padding:5%;
+    margin-bottom:2%;
+}
+
+.qdo-blog {
+    clear: both;
+    float: left;
+    width: 100%;
+    background-color: #E5E5E5;
+    text-align: left;
+    margin-top: 1%;
+    padding: 1% 0;
+    min-height:250px;
+}
+.qdo-blog .tit .be-btn {padding:15px 10%;text-transform:uppercase;font-weight:bold;}
+
+.qdo-emp-contratando h2 {font-family:"Helv95", arial;}
